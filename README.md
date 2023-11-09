@@ -1,5 +1,13 @@
-## This describes the Routes and sample POST data implementing the
-## four major HTTP methods (GET, POST, PUT and DELETE).
+# This is a project (RESTFUL API) done as a portfolio project
+# for the end of the foundations course at ALX Africa.
+
+## Anyone can clone the repo and create a mysql database called
+## api_db to begin running the application locally.
+
+
+### Here describes the Routes and sample POST data implementing the
+### four major HTTP methods (GET, POST, PUT and DELETE).
+
 
 GET all makes:
 --------------
@@ -153,3 +161,8 @@ PUT update a review by review id:
 ---------------------------------
 curl -X PUT http://10.247.161.4:5000/users_trim/<int:user_id>/<int:review_id>
 
+
+Authors:
+Joseph Nweke         -(https://github.com/Navi212)
+Stanhope Chukwunonso -(https://github.com/stanarthur)
+Ike Dimkpa	     -(https://github.com/ikdimkpa)
