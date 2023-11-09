@@ -161,6 +161,7 @@ curl -X PUT http://10.247.161.4:5000/users_trim/<int:user_id>/<int:review_id>
 
 
 Authors:
-Joseph Nweke         -(https://github.com/Navi212)
-Stanhope Chukwunonso -(https://github.com/stanarthur)
-Ike Dimkpa	     -(https://github.com/ikdimkpa)
+-------
++ Joseph Nweke         -(https://github.com/Navi212)
++ Stanhope Chukwunonso -(https://github.com/stanarthur)
++ Ike Dimkpa	     -(https://github.com/ikdimkpa)
