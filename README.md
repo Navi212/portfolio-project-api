@@ -1,12 +1,10 @@
-# This is a project (RESTFUL API) done as a portfolio project
-# for the end of the foundations course at ALX Africa.
-
-## Anyone can clone the repo and create a mysql database called
-## api_db to begin running the application locally.
+# This is a project (RESTFUL API) done as a portfolio project for the end of the foundations course at ALX Africa.
 
 
-### Here describes the Routes and sample POST data implementing the
-### four major HTTP methods (GET, POST, PUT and DELETE).
+## Anyone can clone the repo and create a mysql database called api_db to begin running the application locally.
+
+
+### This section describes the Routes and sample POST data implementing the four major HTTP methods (GET, POST, PUT and DELETE).
 
 
 GET all makes:
