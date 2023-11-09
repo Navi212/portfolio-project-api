@@ -1,7 +1,6 @@
-# This describes the Routes and sample POST data implementing the
-four major HTTP methods (GET, POST, PUT and DELETE).
+## This describes the Routes and sample POST data implementing the
+## four major HTTP methods (GET, POST, PUT and DELETE).
 
-==============================================================
 GET all makes:
 --------------
 curl -X GET http://10.247.161.4:5000/makes
