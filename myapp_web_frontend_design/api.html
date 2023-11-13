@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/api.css">
+
+    <title>Api</title>
+</head>
+<body style="background-color: black;">
+    <header>
+        <div class="logo">
+            <li><a href="">Logo</a></li>
+            <button class="button" type="">Sign up/Login</button>
+        </div>
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <!--<li><a href="documentation.html">Documentation</a></li>-->
+            <li><a href="api.html">Api</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+        </nav>
+    </header>
+    <section class="content div1">
+        <div>
+            <h1>Your car RESTFul API<br>solutions<br>provider. </h1>
+                <p>Read our documentation for how to query our different<br>
+                    endpoints and get results.</p>
+        </div>
+        <div class="lower-text">
+            <div><button class="button">Getting started</button></div>
+            <div><a href="">Contact an expert</a></div>
+        </div>
+    </section>
+
+    <section class="api">
+        <div class="endpoints"><h3 class="h3">API Methods</h3><br>
+            <div class="api-button">
+                <div><button class="but" type="button">GET Methods</button></div>
+                <div><button class="but" type="button">Other Methods</button></div>
+            </div><br><br>
+            
+            <li><button id="myBtn1" class="myBtn">/coderhub/makes</button></li><br>      
+            <li><button id="myBtn2" class="myBtn">/coderhub/makes/make_id</button></li><br>      
+            <li><button id="myBtn3" class="myBtn">/coderhub/make_models</button></li><br>      
+            <li><button id="myBtn4" class="myBtn">/coderhub/make_models/make_id</button></li><br>      
+            <li><button id="myBtn5" class="myBtn">/coderhub/make_model_trim</button></li><br>      
+            <li><button id="myBtn6" class="myBtn">/coderhub/make_model_trim/make_model_id</button></li><br>      
+            <li><button id="myBtn7" class="myBtn">/coderhub/users</button></li><br>      
+            <li><button id="myBtn8" class="myBtn">/coderhub/users/trim_id</button></li><br>      
+            <li><button id="myBtn9" class="myBtn">/coderhub/users_reviews</button></li><br>      
+            <li><button id="myBtn10" class="myBtn">/coderhub/users_reviews/trim_id</button></li><br>      
+        </div>
+        <div id="documentations"><h3>Overview</h3>
+            <p>CodersHub RESTFul API implements the four HTTP request methods:<br><br>
+                POST<br>
+                PUT<br>
+                GET<br>
+                DELETE<br><br>
+                Our API is solely built for educational purposes and will continue to undergo
+                series of updates in order for more improvements.
+                <br><br>
+                 Currently, our Users or clients are only allowed to use the GET methods to fetch
+                 resources from our API.<br>
+                 The returned value or response is a json object with status codes.<br>
+            </p>
+
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <p>Copyright CodersHub.tech (c) 2024</p>
+    </footer>
+    <script src="scripts/index.js"></script>
+
+</body>
+</html>
